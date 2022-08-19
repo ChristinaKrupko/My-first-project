@@ -1,0 +1,168 @@
+body {
+    font-family: 'Assistant', sans-serif;
+    text-align: center;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+}
+.header-img {
+    height: 240px;
+    background-image: url("../images/header.jpg");
+    background-repeat: no-repeat;
+    background-position:left;
+    background-size: cover;
+}
+.menu ul {
+    padding-top: 10px;
+}
+
+.menu {
+    background-color: #ff8db3;
+    height: 45px;
+    margin-top: 0;
+}
+
+.menu ul li {
+    list-style-type: none; 
+    display: inline;   
+    padding-right: 25px;
+    padding-left: 24px;
+    border-right: 1px solid #fff;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+}
+
+.menu ul li a:hover {
+    background-color: #fff;
+    color:#ff8db3;
+    padding: 6px;;
+}
+
+.menu ul li a.active {
+    font-weight: 500;
+}
+
+.section-1 {
+    width: 705px;
+    margin: 0 auto;
+    margin-top: 6px;
+    
+}
+
+.first-paragraph {
+    background-color: #ff8db3;
+    width: 285px;
+    display: inline-block;
+    margin-right: 16px;
+}
+
+.first-paragraph img {
+    width: 60%;
+    padding-top: 10px;
+}
+
+.section-1 .first-paragraph h1 {
+    margin: 0;
+    color: #fff;
+    font-weight: 500;
+    font-size: 18px;
+    margin-top: 5px;
+}
+
+.text-1 {
+    background-color: #fff;
+    width: 260px;
+    height: 220px;
+    box-sizing: border-box;
+    margin-left: 12px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    text-align: left;   
+    height: 130px;
+    padding-top: 9px;
+    box-shadow: 0px 2px 13px 0px #802b4a8f;
+}
+
+.section-1 .first-paragraph ul li {
+    list-style-type: none; 
+    line-height: 2;
+    font-size: 18px;
+    margin-left: 82px;
+    list-style-image: url('../images/v-icon.png');
+    list-style-position: inside;
+}
+
+.second-paragraph {
+    background-color: #ff8db3;
+    width: 400px;
+    display: inline-block;
+    height: 209.56px;
+
+}
+
+.second-paragraph h2 {
+font-size: 32px;
+padding-top: 10px;
+font-weight: 800;
+color: #fff;
+}
+
+.second-paragraph h3 {
+    padding-top: 10px;
+    font-weight: 800;
+    color: #fff;
+    font-size: 90px;
+}
+
+.section2 .img-holder {
+    height: 200px;
+    margin-top: 10px;
+    background-image: url("../images/img-2.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.section2 .img-holder img {
+    width: 280px;
+    padding-top: 70px;
+}
+
+.pink {
+    width: 200px;
+    height: 200px;
+    background-color:pink;
+    position: absolute;
+}
+
+.blue {
+    width: 200px;
+    height: 200px;
+    background-color:rgb(173, 177, 229);
+    position: relative;
+    left: 50px;
+    top: 50px;
+}
+
+
+
+
+
+
+
+
+.helper {
+    height: 500px;
+}
+
+
+
